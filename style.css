@@ -1,0 +1,279 @@
+*{margin: 0;}
+body {
+    margin: 0;
+    display: flex;
+    background-color: black;
+
+}
+
+header {
+    width: 15%;
+    background-color: black;
+
+    color: aliceblue;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    position: sticky;
+    height: 100vh;
+    top: 0;
+}
+
+.logo {
+    font-family: Quicksand;
+    padding: 18px;
+}
+
+.textologo {
+    padding: 14px;
+    color: white;
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+section {
+    width: 85%;
+    background-image: url(https://preview.colorlib.com/theme/elit/images/img_9.jpg.webp);
+    background-size: 100%;
+    background-attachment: fixed;
+
+}
+
+.titulomeio {
+    font-family: "Oswald", sans-serif;
+    height: 100vh;
+    color: aliceblue;
+    text-align: center;
+    font-size: 45px;
+    text-size-adjust: 100%;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 30px;
+}
+
+.textomeio {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: Quicksand, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    line-height: 30px;
+}
+
+.botao {
+    padding: 5px 35px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    background-color: #df0e62;
+    border-radius: 30px;
+    line-height: 1.5;
+    ;
+    font-family: sans-serif
+}
+
+.espaço {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+#imgs {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    background: black;
+    gap: 6px;
+}
+
+.img {
+    height: 300px;
+    width: 33%;
+    object-fit: cover;
+}
+
+#jean {
+    font-family: "Oswald", sans-serif, arial;
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+    background-color: black;
+    border: 2;
+    padding:3em
+}
+
+.fotojean {
+    text-align: center;
+    border-radius: 50%;
+    height: 230px;
+}
+
+.titulojean {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.textojean {
+    box-sizing: border-box;
+    font-family: "Quicksand", arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+  color:gray;
+  line-height: 1.7;;
+    
+}
+
+#biografia {
+    font-family: "Quicksand";
+    background-image: none;
+    background-color: #1a1a1a;
+    width: 100%;
+    text-align: left;
+    padding: 0 20%;
+    color: gray;
+    padding: 5em;
+    margin-top: 0;
+}
+#blog{
+    background-color: black;
+}
+#formulario{
+    background-color: #1a1a1a;
+    background-image: none;
+    
+}
+
+.titulobio {
+    font-family: "Oswald";
+    font-size: 64px;
+    color: aliceblue;
+    text-align: left;
+    padding: 0 20;
+}
+
+.imgbio {
+    height: 300px;
+    line-height: 27%;
+    padding: 3em
+}
+.tituloapresentacao{
+    font-size: 32px;
+    font-family: "Oswald" ;
+    display: block;
+    line-height: 28px;
+    color: aliceblue;
+padding:0.5em;
+    }
+    .tituloapresentacao1{
+        font-size: 32px;
+        font-family: "Oswald" ;
+        display: block;
+        line-height: 28px;
+        color: aliceblue;
+    padding:0.5em;
+display: inline-flex;}
+
+.apresentacao {
+    font-family: "Oswald";
+    text-align: left;
+    font-size: 60px;
+    color: aliceblue;
+padding: 0 20;
+}
+.textoapresentacao{
+    font-family: "Quicksand";
+    font-size: 16px;
+    text-align: left;
+    color: gray;
+  padding: 0 20;
+  line-height: 27px;
+}
+.textoapresentacao2{
+    font-family: "Quicksand";
+    font-size: 16px;
+    text-align: left;
+    color: gray;
+  padding: 0 20;
+  line-height: 27px;
+  padding-top:2em
+}
+.imgblog{
+height:200px;
+}
+.imgazul{
+    height:200px;
+    text-align: left;
+}
+
+.textov {
+    font-family: "Quicksand";
+    font-size: 16px;
+    text-align: center;
+    position: outside;
+    color: gray;
+    display: inline-flex;
+  padding-top: 3em;
+}
+.textov1{
+    font-family: "Quicksand";
+    font-size: 16px;
+    text-align: center;
+    position: outside;
+    color: gray;
+    
+  padding-top: 3em;
+
+}
+.textovlado{
+    font-family: "Quicksand";
+    font-size: 16px;
+    text-align: center;
+    position: outside;
+    color: gray;
+    display: inline-flex;
+  padding-top: 3em;
+}
+
+
+#formulario {
+    margin-top: 20x;
+    margin-left: 0px
+}
+
+.textoformulario {
+    font-family: "Quicksand";
+    font-size: 16px;
+    text-align: left;
+    position: outside;
+    color: aliceblue;
+}
+
+.textoformulario1 {
+    margin-top: 250px
+}
+
+.botao2 {
+    padding: 5px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    background-color: #df0e62;
+
+    color: white ;
+    font-family: sans-serif
+}
+
+.textofinal {
+    margin-top: 200px;
+    color: white;
+}
+
+.textofinalrosa {
+    color: #df0e62
+    
+}
